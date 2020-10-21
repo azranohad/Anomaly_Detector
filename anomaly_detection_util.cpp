@@ -4,7 +4,8 @@
  * Author: write your ID and name here
  */
 #include <iostream>
-#include <math.h>
+#include <cmath>
+#include <cstdlib>
 #include "anomaly_detection_util.h"
 
 float avg(float* x, int size){
@@ -80,7 +81,8 @@ float dev(Point p,Point** points, int size){
 // returns the deviation between point p and the line
 float dev(Point p,Line l){
     float f_x = l.a * p.x + l.b;
-    return abs(f_x - p.y);
+    float devRet = std::abs((f_x - p.y));
+    return devRet;
 }
 
 

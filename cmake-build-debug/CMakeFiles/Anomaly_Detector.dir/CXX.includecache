@@ -6,16 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/azran/CLionProjects/Anomaly Detector/MainTrain.cpp
-iostream
--
-anomaly_detection_util.h
-/mnt/c/Users/azran/CLionProjects/Anomaly Detector/anomaly_detection_util.h
-
 /mnt/c/Users/azran/CLionProjects/Anomaly Detector/anomaly_detection_util.cpp
 iostream
 -
-math.h
+cmath
+-
+cstdlib
 -
 anomaly_detection_util.h
 /mnt/c/Users/azran/CLionProjects/Anomaly Detector/anomaly_detection_util.h
