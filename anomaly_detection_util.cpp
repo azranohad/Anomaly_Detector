@@ -28,7 +28,7 @@ float var(float* x, int size){
     float sumVarPow = 0;
 
     for (int i = 0; i < size; i++) {
-        float diffPow = pow(x[i] - u, 2);
+        float diffPow = std::pow(x[i] - u, 2);
         sumVarPow = sumVarPow + diffPow;
     }
 	return sumVarPow/size;
@@ -51,7 +51,8 @@ float pearson(float* x, float* y, int size){
     if (size == 0) {
         return 0;
     }
-    float multStdv = sqrt(var(x, size)) * sqrt(var(y, size));
+    float multStdv;
+    multStdv = std::sqrt(var(x, size)) * std::sqrt(var(y, size));
     return cov(x, y, size) / multStdv;
 }
 
