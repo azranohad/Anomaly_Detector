@@ -1,4 +1,4 @@
-/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/c/Users/azran/CLionProjects/Anomaly Detector"
+C:\Users\azran\AppData\Local\JetBrains\CLion2020.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug

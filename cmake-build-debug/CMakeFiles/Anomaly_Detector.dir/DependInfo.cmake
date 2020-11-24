@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/azran/CLionProjects/Anomaly Detector/MainTrain.cpp" "/mnt/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug/CMakeFiles/Anomaly_Detector.dir/MainTrain.cpp.o"
-  "/mnt/c/Users/azran/CLionProjects/Anomaly Detector/anomaly_detection_util.cpp" "/mnt/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug/CMakeFiles/Anomaly_Detector.dir/anomaly_detection_util.cpp.o"
+  "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/MainTrain.cpp" "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug/CMakeFiles/Anomaly_Detector.dir/MainTrain.cpp.o"
+  "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/SimpleAnomalyDetector.cpp" "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug/CMakeFiles/Anomaly_Detector.dir/SimpleAnomalyDetector.cpp.o"
+  "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/anomaly_detection_util.cpp" "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug/CMakeFiles/Anomaly_Detector.dir/anomaly_detection_util.cpp.o"
+  "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/timeseries.cpp" "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/cmake-build-debug/CMakeFiles/Anomaly_Detector.dir/timeseries.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
