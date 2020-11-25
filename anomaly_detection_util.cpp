@@ -7,6 +7,7 @@
 #include <cmath>
 #include <cstdlib>
 #include "anomaly_detection_util.h"
+using namespace std;
 
 float avg(float* x, int size){
     if (size == 0) {
@@ -57,6 +58,7 @@ float pearson(float* x, float* y, int size){
 }
 
 // performs a linear regression and returns the line equation
+
 Line linear_reg(Point** points, int size){
     float x[size];
     float y[size];
@@ -66,7 +68,6 @@ Line linear_reg(Point** points, int size){
     }
     float a = (cov(x, y, size)) / var(x, size);
     float b = avg(y, size) - a * avg(x, size);
-
 	return Line(a,b);
 }
 
