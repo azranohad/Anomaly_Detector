@@ -98,6 +98,12 @@
 		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/anomaly_detection_util.h">
 			<Option target="Anomaly_Detector"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/minCircle.cpp">
+			<Option target="Anomaly_Detector"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/minCircle.h">
+			<Option target="Anomaly_Detector"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/timeseries.cpp">
 			<Option target="Anomaly_Detector"/>
 		</Unit>
