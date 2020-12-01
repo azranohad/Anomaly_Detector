@@ -1,4 +1,8 @@
-
+/*
+ * minCircle.cpp
+ *
+ * Author: 303080097 Ohad Azran & 313581688 Amit Ilovitch
+ */
 #include <algorithm>
 #include <cassert>
 #include <cmath>

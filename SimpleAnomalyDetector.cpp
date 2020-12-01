@@ -1,4 +1,8 @@
-
+/*
+ * SimpleAnomalyDetector.cpp
+ *
+ * Author: 303080097 Ohad Azran
+ */
 #include "SimpleAnomalyDetector.h"
 #include <cmath>
 

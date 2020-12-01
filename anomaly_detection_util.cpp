@@ -1,7 +1,7 @@
 /*
- * animaly_detection_util.cpp
+ * anomaly_detection_util.cpp
  *
- * Author: write your ID and name here
+ * Author: 303080097 Ohad Azran
  */
 #include <iostream>
 #include <cmath>

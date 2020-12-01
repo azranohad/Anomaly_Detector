@@ -1,4 +1,8 @@
-
+/*
+ * minCircle.h
+ *
+ * Author: 303080097 Ohad Azran & 313581688 Amit Ilovitch
+ */
 // ID1 303080097	ID2 313581688
 
 #ifndef MINCIRCLE_H_

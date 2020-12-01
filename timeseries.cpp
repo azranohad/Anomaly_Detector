@@ -1,6 +1,8 @@
-//
-// Created by azran on 23/11/2020.
-//
+/*
+ * timeseries.cpp
+ *
+ * Author: 303080097 Ohad Azran
+ */
 
 #include <string>
 #include <map>

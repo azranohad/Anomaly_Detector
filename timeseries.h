@@ -1,4 +1,8 @@
-
+/*
+ * timeseries.h
+ *
+ * Author: 303080097 Ohad Azran
+ */
 #include <map>
 #include <string>
 #include <vector>
