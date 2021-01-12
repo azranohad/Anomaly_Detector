@@ -83,6 +83,18 @@
 		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/AnomalyDetector.h">
 			<Option target="Anomaly_Detector"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/CLI.cpp">
+			<Option target="Anomaly_Detector"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/CLI.h">
+			<Option target="Anomaly_Detector"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/HybridAnomalyDetector.cpp">
+			<Option target="Anomaly_Detector"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/HybridAnomalyDetector.h">
+			<Option target="Anomaly_Detector"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/MainTrain.cpp">
 			<Option target="Anomaly_Detector"/>
 		</Unit>
@@ -96,6 +108,9 @@
 			<Option target="Anomaly_Detector"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/anomaly_detection_util.h">
+			<Option target="Anomaly_Detector"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/commands.h">
 			<Option target="Anomaly_Detector"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/minCircle.cpp">

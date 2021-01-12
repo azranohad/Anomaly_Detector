@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = "/cygdrive/c/Users/azran/CLionProjects/Anomaly Detector/cmake
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/azran/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -142,6 +142,60 @@ Anomaly_Detector: cmake_check_build_system
 Anomaly_Detector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Anomaly_Detector.dir/build.make CMakeFiles/Anomaly_Detector.dir/build
 .PHONY : Anomaly_Detector/fast
+
+CLI.o: CLI.cpp.o
+
+.PHONY : CLI.o
+
+# target to build an object file
+CLI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Anomaly_Detector.dir/build.make CMakeFiles/Anomaly_Detector.dir/CLI.cpp.o
+.PHONY : CLI.cpp.o
+
+CLI.i: CLI.cpp.i
+
+.PHONY : CLI.i
+
+# target to preprocess a source file
+CLI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Anomaly_Detector.dir/build.make CMakeFiles/Anomaly_Detector.dir/CLI.cpp.i
+.PHONY : CLI.cpp.i
+
+CLI.s: CLI.cpp.s
+
+.PHONY : CLI.s
+
+# target to generate assembly for a file
+CLI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Anomaly_Detector.dir/build.make CMakeFiles/Anomaly_Detector.dir/CLI.cpp.s
+.PHONY : CLI.cpp.s
+
+HybridAnomalyDetector.o: HybridAnomalyDetector.cpp.o
+
+.PHONY : HybridAnomalyDetector.o
+
+# target to build an object file
+HybridAnomalyDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Anomaly_Detector.dir/build.make CMakeFiles/Anomaly_Detector.dir/HybridAnomalyDetector.cpp.o
+.PHONY : HybridAnomalyDetector.cpp.o
+
+HybridAnomalyDetector.i: HybridAnomalyDetector.cpp.i
+
+.PHONY : HybridAnomalyDetector.i
+
+# target to preprocess a source file
+HybridAnomalyDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Anomaly_Detector.dir/build.make CMakeFiles/Anomaly_Detector.dir/HybridAnomalyDetector.cpp.i
+.PHONY : HybridAnomalyDetector.cpp.i
+
+HybridAnomalyDetector.s: HybridAnomalyDetector.cpp.s
+
+.PHONY : HybridAnomalyDetector.s
+
+# target to generate assembly for a file
+HybridAnomalyDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Anomaly_Detector.dir/build.make CMakeFiles/Anomaly_Detector.dir/HybridAnomalyDetector.cpp.s
+.PHONY : HybridAnomalyDetector.cpp.s
 
 MainTrain.o: MainTrain.cpp.o
 
@@ -287,6 +341,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Anomaly_Detector"
+	@echo "... CLI.o"
+	@echo "... CLI.i"
+	@echo "... CLI.s"
+	@echo "... HybridAnomalyDetector.o"
+	@echo "... HybridAnomalyDetector.i"
+	@echo "... HybridAnomalyDetector.s"
 	@echo "... MainTrain.o"
 	@echo "... MainTrain.i"
 	@echo "... MainTrain.s"

@@ -9,6 +9,7 @@
 #include <random>
 #include <vector>
 #include "minCircle.h"
+#include "anomaly_detection_util.h"
 
 using namespace std;
 
